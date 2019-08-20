@@ -70,12 +70,12 @@
             // Highlight the entire week row
             $dp.on('mousemove', '.ui-datepicker-calendar tr', function () {
                 if ($(this).parents('.ui-weekpicker').length) {
-                    $(this).find('td a').addClass('ui-state-hover');
+                    $(this).find('td a, td span').addClass('ui-state-hover');
                 }
             });
             $dp.on('mouseleave', '.ui-datepicker-calendar tr', function () {
                 if ($(this).parents('.ui-weekpicker').length) {
-                    $(this).find('td a').removeClass('ui-state-hover');
+                    $(this).find('td a, td span').removeClass('ui-state-hover');
                 }
             });
         },
@@ -185,7 +185,7 @@
          */
         _selectCurrentWeek: function () {
             window.setTimeout(function () {
-                $('.ui-weekpicker').find('.ui-datepicker-current-day a').addClass('ui-state-active').removeClass('ui-state-default');
+                $('.ui-weekpicker').find('.ui-datepicker-current-day a, .ui-datepicker-current-day span').addClass('ui-state-active').removeClass('ui-state-default');
             }, 1);
         },
 
