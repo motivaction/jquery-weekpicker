@@ -214,6 +214,8 @@
             this.endDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - offset + this._defaults.weekLength - 1);
 
             wp_inst._setDateFields();
+
+            wp_inst._selectCurrentWeek();
         },
 
         /*
