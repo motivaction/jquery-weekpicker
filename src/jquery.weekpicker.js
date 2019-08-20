@@ -1,6 +1,16 @@
 /*
  * jQuery Weekpicker Addon
+ * Author: Jeroen van Warmerdam <jeronevw@hotmail.com>
+ * https://github.com/motivaction/jquery-weekpicker
+ *
+ * Altered version of the jquery timepicker addon by Sander Marechal <s.marechal@jejik.com> [https://github.com/Prezent/jquery-weekpicker]
+ *
+ */
+
+/*
+ * jQuery Weekpicker Addon
  * Author: Sander Marechal <s.marechal@jejik.com>
+ * https://github.com/Prezent/jquery-weekpicker
  *
  * Loosely based on the jquery timepicker addon by Trent Richardson [http://trentrichardson.com]
  *
